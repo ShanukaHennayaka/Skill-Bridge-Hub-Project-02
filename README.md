@@ -1,31 +1,25 @@
 # Skill Bridge Hub Project 02
- An innovative task-bidding platform that connects professionals in urban areas with job opportunities. It has advanced features including qualified bidder recognition and a robust verification process.
-
-
-# ITP-Project
-Website for the International Homoeopathic Hospital and Research Institute (pvt) Ltd.
-
-## Prerequisites
-- Git
-- Composer
-- XAMPP
+Skill Bridge Hub is an advanced task bidding platform designed to address the gap for service professionals outside the software industry. Targeting urban areas, this platform connects diverse professionals with job opportunities, offering an inclusive and efficient service marketplace.
 
 ## Instructions
 
-1. First clone the repo using the following git command in your git bash(inside the xampp\htdocs)
+1. To run the frontend - First, go to the frontend directory and install the node modules using the following code.
 ```
-git clone -b secondary https://github.com/LakshanPerera/ITP-Project.git
-```
-
-2. CD into the ITP-Project and install the composer dependencies
-```
-cd ITP-Project
-composer install
+npm install
 ```
 
-3. Make a .env file by copying the .env.example file
+2. Then run the frontend using the following code.
 ```
-cp .env.example .env
+npm run dev
+```
+
+3. To run the backend - Go to the backend directory and install the node modules using the following code.
+```
+npm install
+```
+4. Then run the backend using the following code.
+```
+npm start
 ```
 ##### Note
 - If you are using different database name and password update them in the `.env` file
