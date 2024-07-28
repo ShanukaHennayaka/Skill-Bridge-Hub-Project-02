@@ -1,0 +1,24 @@
+.register-container{
+    display:flex;
+    box-shadow: 0 4px 8px rgba(23, 29, 63, 0.1),
+    0 6px 20px rgba(23, 29, 63, 0.4);
+  border-radius: 10px;
+    border-radius:15px;
+    width:80%;
+}
+
+.register-left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.register-right{
+    flex:1;
+    border-left:1px solid;
+    display:grid;
+    place-items:center;
+    padding:2rem;
+    padding-bottom:3rem;
+}

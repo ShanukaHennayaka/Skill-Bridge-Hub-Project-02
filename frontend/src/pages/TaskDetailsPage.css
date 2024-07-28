@@ -1,0 +1,25 @@
+.main-container {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+.left-container {
+  flex: 2;
+  margin-right: 2rem;
+}
+.left-container img {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 60vh;
+  max-height: 60vh;
+  margin-top: 1rem;
+}
+.right-container {
+  flex: 1.8;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 1rem
+}

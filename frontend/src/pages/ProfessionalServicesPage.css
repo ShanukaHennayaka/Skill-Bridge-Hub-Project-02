@@ -1,0 +1,10 @@
+.ps-container{
+   display:flex;
+
+}
+.ps-filter{
+    flex: 1;
+}
+.ps-items{
+    flex: 3;
+}
